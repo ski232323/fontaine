@@ -12,5 +12,3 @@ if temperature_c >25 :
     lcd.putstr('Couvrez-vous')
 
 
-
-       
