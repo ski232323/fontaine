@@ -8,7 +8,12 @@ temperature_c = dht_device.temperature
 if temperature_c >25 :
     lcd.putstr('Prenez un verre d eau')
 
-    if temperature_c <25 :
-    lcd.putstr('Couvrez-vous')
+
+if 15<temperature_c <25 :
+    lcd.putstr ('Température normale') 
+    
+
+if temperature_c <15 :
+lcd.putstr('Couvrez-vous')
 
 
