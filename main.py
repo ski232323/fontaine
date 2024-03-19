@@ -5,6 +5,7 @@ import board
 dht_device = adafruit_dht.DHT11(board.D4)
 temperature_c = dht_device.temperature
 if capteur de mouvement.value==1:
+écran()
 
 
 def écran () : 
